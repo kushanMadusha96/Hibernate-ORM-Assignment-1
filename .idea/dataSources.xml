@@ -7,5 +7,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/orm_assignment1</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="orm_assignment_part2" uuid="53a98b2e-2b1c-494b-817a-3c139f6ca044">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/orm_assignment_part2</jdbc-url>
+    </data-source>
   </component>
 </project>

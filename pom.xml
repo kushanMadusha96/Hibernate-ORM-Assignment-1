@@ -10,7 +10,15 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>part1</module>
+        <module>one to many</module>
         <module>part2</module>
+        <module>part3</module>
+        <module>part2</module>
+        <module>part4</module>
+        <module>part2(one to many)</module>
+        <module>part2(one to one)</module>
+        <module>part3(one to many)</module>
+        <module>part2(many to many)</module>
     </modules>
 
     <properties>

@@ -6,11 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="part2(many to many)" />
         <module name="part1" />
+        <module name="part2(one to one)" />
+        <module name="part2(one to many)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="part2" target="11" />
+      <module name="one to many" target="11" />
+      <module name="one to one" target="11" />
+      <module name="part2(one yo many)" target="11" />
+      <module name="part3" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
